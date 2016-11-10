@@ -4,7 +4,7 @@ var moment = require('moment');
 var fs = require('fs');
 var path = require('path');
 
-var port = process.env.PORT || 3500;
+var port = process.env.PORT || 8080;
 
 app.listen(port, function(){
   console.log("Listening on port: " + port);

@@ -1,5 +1,5 @@
 {
-  "name": "ts-micro",
+  "name": "Timestamp-Microservice",
   "version": "1.0.0",
   "description": "Timestamp Microservice",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rex.schrader@gmail.com",
+  "author": "sirrineprogramming@gmail.com",
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
