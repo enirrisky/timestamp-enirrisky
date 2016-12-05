@@ -10,6 +10,8 @@ app.listen(port, function(){
   console.log("Listening on port: " + port);
 });
 
+app.set('json spaces', 40);
+
 app.get('/', function(req, res) {
   var fileName = path.join(__dirname, 'index.html');
   res.sendFile(fileName, function (err) {
